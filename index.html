@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hair'gonomie – Menu vivant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center; margin-top: 20px">
+      Hair'gonomie – Menu vivant
+    </h1>
+    <p style="text-align: center">Clique sur une mèche pour voir l’effet !</p>
+
+    <div class="hair-menu">
+      <div class="strand" onclick="show('Accueil')">Accueil</div>
+      <div class="strand" onclick="show('Profil')">Profil</div>
+      <div class="strand" onclick="show('Messages')">Messages</div>
+      <div class="strand" onclick="show('Paramètres')">Paramètres</div>
+      <div class="strand" onclick="show('Aide')">Aide</div>
+    </div>
+
+    <div id="content">Sélectionnez une option…</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
